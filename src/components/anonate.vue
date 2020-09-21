@@ -1065,6 +1065,7 @@ body {
 
 .main-panel {
   width: calc(100% - 300px);
+  overflow-y: auto;
 }
 
 .img-slider {
