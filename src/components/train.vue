@@ -152,7 +152,7 @@ export default {
     },
     async exportToServer() {
       window.open(
-        "https://sharebox.nstda.or.th/drive/group-public/G5f59ac09b6c50/home%2FOnlineTraining",
+        "https://sharebox.nstda.or.th/drive/group-public/G5f59ac09b6c50/home%2FEKidBrightAI",
         "_blank"
       );
     },
