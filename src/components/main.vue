@@ -380,21 +380,9 @@
             <b-form-group :state="nameState" label="Name" label-for="name-input" invalid-feedback="Name is required">
                 <b-form-input id="name-input" v-model="projectDirIn" :state="nameState" required></b-form-input>
             </b-form-group>
-            <p class="p-notice-color small">* เงื่อนไขการตั้งชื่อโปรเจค</p>
-        <p class="p-notice-color small">1. ภาษาอังกฤษเท่านั้น</p>
-        <p class="p-notice-color small">
-          2. ตั้งชื่อตามรูปแบบดังต่อไปนี้ <br /><span class="p-color"
-            >ภาคตามด้วยรุ่นการอบรม_ชื่อโรงเรียน_ชื่อจริงของผู้เข้าอบรม</span
-          >
-        </p>
-        <p class="p-notice-color small">ตัวอย่างการตั้งชื่อ เช่น</p>
-        <p class="p-notice-color small">
-          ภาคเหนือ อบรมรุ่นที่ 1 ชื่อโรงเรียน SchoolName ชื่อผู้เข้าอบรม
-          KidBright
-        </p>
-        <p class="p-notice-color small">
-          ตั้งชื่อโปรเจค: <span class="p-color">N1_SchoolName_KidBright</span>
-        </p>            
+          <p class="p-notice-color small">* เงื่อนไขการตั้งชื่อโปรเจค</p>
+          <p class="p-notice-color small">1. ภาษาอังกฤษเท่านั้น</p>
+          <p class="p-notice-color small">2. ห้ามเว้นวรรค หากต้องการเว้นวรรคให้ใช้เครื่องหมายขีดล่าง _ แทน</p>        
         </form>
     </b-modal>
 
