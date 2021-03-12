@@ -334,7 +334,7 @@
           </div>
         </div>
       </div>
-      <div style="width: 120px; height: 120px; background-color: rgba(255,0,0,0.1);">simulator</div>
+      <div class="mid-panel d-flex flex-column">simulator</div>
       <div class="content-panel d-flex flex-fill">
         <BlocklyComponent
           ref="blocklyComponent"
@@ -1354,9 +1354,15 @@ ul {
   overflow-y: auto;
   width: calc(100% - 320px);
 }
-
+.mid-panel {
+  background-color: #fff2d6;
+  padding: 25px;
+  margin: 200px 200px;
+  width: 500px;
+  height: 500px;
+}
 .left-panel {
-  padding: 8px;
+  padding: 50px;
   max-width: 320px;
   width: 320px;
   min-width: 320px;
