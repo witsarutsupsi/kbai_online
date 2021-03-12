@@ -5,8 +5,8 @@
       :can-cancel="false"
       :is-full-page="fullPage"
     ></loading>
+    <div class="sim-panel">Virtual Kanomchan</div>
     <div class="container-fluid vh-100 d-flex main-bg">
-      <div class="sim-panel">Virtual Kanomchan</div>
       <div class="left-panel d-flex flex-column">
         <div class="l-title font-weight-bold">KidBright AI</div>
         <div class="d-inline-flex flex-wrap menu-starter">
@@ -1359,8 +1359,8 @@ ul {
   background-color: #fff2d6;
   padding: 25px;
   margin: auto;
-  width: 1280px;
-  height: 720px;
+  width: 640px;
+  height: 360px;
 }
 .left-panel {
   padding: 50px;
