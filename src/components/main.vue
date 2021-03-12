@@ -7,7 +7,7 @@
     ></loading>
     <div class="container-fluid vh-100 d-flex main-bg">
       <div class="left-panel d-flex flex-column">
-        <div class="l-title font-weight-bold">KidBright AI Simulator</div>
+        <div class="l-title font-weight-bold">KidBright AI</div>
         <div class="d-inline-flex flex-wrap menu-starter">
           <div class="btn-base new" data-md-tooltip="สร้าง Project ใหม่" v-on:click="selectedMenu = 1" v-b-modal.modal-prevent-closing :disabled="isLoading || isSaving" />
           <div data-md-tooltip="นำเข้า Project จาก Google Drive" class="btn-base import" variant="danger" @click="ejectUSB" v-b-modal.gs_modal_list_files :disabled="isLoading || isSaving" />
@@ -229,7 +229,7 @@
             class="hint"
           >
             <div class="main-hint txt">
-              <p class="p-color font-weight-bold">ขั้นตอนที่ 1 Capture</p>
+              <p class="p-color font-weight-bold">ขั้นตอน 1 Capture</p>
               <p>
                 ขั้ขั้นตอนนี้เป็นการอัพโหลดภาพที่ต้องการใช้ในการเรียนรู้โมเดลปัญญาประดิษฐ์
                 โดยกดปุ่ม
