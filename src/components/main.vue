@@ -5,7 +5,7 @@
       :can-cancel="false"
       :is-full-page="fullPage"
     ></loading>
-    <div class="sim-panel">Virtual Kanomchan</div>
+    
     <div class="container-fluid vh-100 d-flex main-bg">
       <div class="left-panel d-flex flex-column">
         <div class="l-title font-weight-bold">KidBright AI</div>
@@ -335,6 +335,7 @@
           </div>
         </div>
       </div>
+      <div class="sim-panel">Virtual Kanomchan</div>
       <div class="content-panel d-flex flex-fill">
         <BlocklyComponent
           ref="blocklyComponent"
@@ -1363,7 +1364,7 @@ ul {
   height: 360px;
 }
 .left-panel {
-  padding: 50px;
+  padding: 8px;
   max-width: 320px;
   width: 320px;
   min-width: 320px;
