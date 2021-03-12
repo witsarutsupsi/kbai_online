@@ -466,6 +466,7 @@ import { mapGetters } from "vuex";
 import Anotate from "@/components/anonate.vue";
 import AnnotateForClassify from "@/components/annotateForClassify.vue";
 import Capture from "@/components/capture.vue";
+import Simulator from "@/components/simulator.vue";
 import BlocklyComponent from "@/components/BlocklyComponent.vue";
 import Train from "@/components/train.vue";
 import TrainLocal from "@/components/trainLocal.vue";
@@ -505,6 +506,7 @@ export default {
     Anotate,
     AnnotateForClassify,
     Capture,
+    Simulator,
     Train,
     TrainLocal,
     // eslint-disable-next-line vue/no-unused-components
