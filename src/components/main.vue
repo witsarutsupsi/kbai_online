@@ -6,6 +6,7 @@
       :is-full-page="fullPage"
     ></loading>
     <div class="container-fluid vh-100 d-flex main-bg">
+      <div class="sim-panel">Virtual Kanomchan</div>
       <div class="left-panel d-flex flex-column">
         <div class="l-title font-weight-bold">KidBright AI</div>
         <div class="d-inline-flex flex-wrap menu-starter">
@@ -367,7 +368,7 @@
       </div>
       <!-- <div>Right Panel</div> -->
     </div>
-    <div class="mid-panel d-flex flex-column">Virtual Kanomchan</div>
+    
     <b-modal id="modal-prevent-closing" ref="modal" title="Enter project name" @show="resetModal" @hidden="resetModal" @ok="handleOk">
         <form ref="form" @submit.stop.prevent="handleSubmit">
             <b-dropdown id="dropdown-1" :text="
@@ -1354,12 +1355,12 @@ ul {
   overflow-y: auto;
   width: calc(100% - 320px);
 }
-.mid-panel {
+.sim-panel {
   background-color: #fff2d6;
   padding: 25px;
-  margin: 200px 200px;
-  width: 500px;
-  height: 500px;
+  margin: auto;
+  width: 1280px;
+  height: 720px;
 }
 .left-panel {
   padding: 50px;
