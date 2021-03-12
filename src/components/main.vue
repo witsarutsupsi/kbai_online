@@ -231,7 +231,7 @@
             <div class="main-hint txt">
               <p class="p-color font-weight-bold">ขั้นตอนที่ 1 Capture</p>
               <p>
-                ขั้นตอนนี้เป็นการอัพโหลดภาพที่ต้องการใช้ในการเรียนรู้โมเดลปัญญาประดิษฐ์
+                ขั้ขั้นตอนนี้เป็นการอัพโหลดภาพที่ต้องการใช้ในการเรียนรู้โมเดลปัญญาประดิษฐ์
                 โดยกดปุ่ม
                 <img src="../assets/UI/svg/Group 120.svg" alt="" srcset="" />
                 เพื่ออัพโหลดภาพ (ควรใช้ภาพวัตถุในมุมต่างๆ ประมาณ 50 ภาพต่อวัตถุ
@@ -334,7 +334,6 @@
           </div>
         </div>
       </div>
-      <div class="mid-panel d-flex flex-column">simulator</div>
       <div class="content-panel d-flex flex-fill">
         <BlocklyComponent
           ref="blocklyComponent"
@@ -368,6 +367,7 @@
       </div>
       <!-- <div>Right Panel</div> -->
     </div>
+    <div class="mid-panel d-flex flex-column">Virtual Kanomchan</div>
     <b-modal id="modal-prevent-closing" ref="modal" title="Enter project name" @show="resetModal" @hidden="resetModal" @ok="handleOk">
         <form ref="form" @submit.stop.prevent="handleSubmit">
             <b-dropdown id="dropdown-1" :text="
