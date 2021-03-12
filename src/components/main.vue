@@ -7,7 +7,7 @@
     ></loading>
     <div class="container-fluid vh-100 d-flex main-bg">
       <div class="left-panel d-flex flex-column">
-        <div class="l-title font-weight-bold">KidBright AI</div>
+        <div class="l-title font-weight-bold">KidBright AI Simulator</div>
         <div class="d-inline-flex flex-wrap menu-starter">
           <div class="btn-base new" data-md-tooltip="สร้าง Project ใหม่" v-on:click="selectedMenu = 1" v-b-modal.modal-prevent-closing :disabled="isLoading || isSaving" />
           <div data-md-tooltip="นำเข้า Project จาก Google Drive" class="btn-base import" variant="danger" @click="ejectUSB" v-b-modal.gs_modal_list_files :disabled="isLoading || isSaving" />
