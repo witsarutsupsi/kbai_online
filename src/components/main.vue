@@ -6,6 +6,7 @@
       :is-full-page="fullPage"
     ></loading>
     <div class="container-fluid vh-100 d-flex main-bg">
+      <div style="width: 120px; height: 120px; background-color: rgba(255,0,0,0.1);">simulator</div>
       <div class="left-panel d-flex flex-column">
         <div class="l-title font-weight-bold">KidBright AI</div>
         <div class="d-inline-flex flex-wrap menu-starter">
@@ -466,7 +467,6 @@ import { mapGetters } from "vuex";
 import Anotate from "@/components/anonate.vue";
 import AnnotateForClassify from "@/components/annotateForClassify.vue";
 import Capture from "@/components/capture.vue";
-import Simulator from "@/components/simulator.vue";
 import BlocklyComponent from "@/components/BlocklyComponent.vue";
 import Train from "@/components/train.vue";
 import TrainLocal from "@/components/trainLocal.vue";
@@ -506,7 +506,6 @@ export default {
     Anotate,
     AnnotateForClassify,
     Capture,
-    Simulator,
     Train,
     TrainLocal,
     // eslint-disable-next-line vue/no-unused-components
