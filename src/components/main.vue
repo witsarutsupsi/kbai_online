@@ -6,7 +6,6 @@
       :is-full-page="fullPage"
     ></loading>
     <div class="container-fluid vh-100 d-flex main-bg">
-      <div style="width: 120px; height: 120px; background-color: rgba(255,0,0,0.1);">simulator</div>
       <div class="left-panel d-flex flex-column">
         <div class="l-title font-weight-bold">KidBright AI</div>
         <div class="d-inline-flex flex-wrap menu-starter">
@@ -335,6 +334,7 @@
           </div>
         </div>
       </div>
+      <div style="width: 120px; height: 120px; background-color: rgba(255,0,0,0.1);">simulator</div>
       <div class="content-panel d-flex flex-fill">
         <BlocklyComponent
           ref="blocklyComponent"
