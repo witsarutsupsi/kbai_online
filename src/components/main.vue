@@ -7,6 +7,7 @@
     ></loading>
     
     <div class="container-fluid vh-100 d-flex main-bg">
+      <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan</div>
       <div class="left-panel d-flex flex-column">
         <div class="l-title font-weight-bold">KidBright AI</div>
         <div class="d-inline-flex flex-wrap menu-starter">
@@ -335,7 +336,6 @@
           </div>
         </div>
       </div>
-      <div class="sim-panel">Virtual Kanomchan</div>
       <div class="content-panel d-flex flex-fill">
         <BlocklyComponent
           ref="blocklyComponent"
