@@ -3,17 +3,6 @@
   </div>
 </template>
 
-<script>
-import vk from "@/assets/UnityBuild/index.html";
-export default {
-  data () {
-    return {
-      vk,
-      foo:null
-    }
-  }
-}
-</script>
 
 <style lang="scss" scoped>
 .sim-panel {
