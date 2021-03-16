@@ -1,9 +1,10 @@
 <template>
-  <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan
-  </div>
-  <object data="/assets/UnityBuild/index.html" height="300" width="500"></object>
+  <div class="sim-panel d-flex justify-content-center"></div>
 </template>
 
+<body>
+<object data="/assets/UnityBuild/index.html" height="300" width="500">Virtual Kanomchan</object>
+</body>
 
 <style lang="scss" scoped>
 .sim-panel {
