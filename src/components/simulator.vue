@@ -1,9 +1,8 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan
-    <object data="/assets/UnityBuild/index.html"></object>
   </div>
+  <iframe :src="/assets/UnityBuild/index.html"></iframe>
 </template>
-
 
 
 <style lang="scss" scoped>
