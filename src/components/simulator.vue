@@ -1,7 +1,7 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan
   </div>
-  <iframe :src="/components/UnityBuild/index.html"></iframe>
+  <object data="/assets/UnityBuild/index.html" height="300" width="500"></object>
 </template>
 
 
