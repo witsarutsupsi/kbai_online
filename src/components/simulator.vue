@@ -3,6 +3,9 @@
   </div>
 </template>
 
+<body>
+<object data="../assets/UnityBuild/index.html" width="1000" height="600"></object>
+</body>
 
 <style lang="scss" scoped>
 .sim-panel {
