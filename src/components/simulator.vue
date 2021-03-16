@@ -3,7 +3,7 @@
 </template>
 
 <body>
-<object data="/assets/UnityBuild/index.html" height="300" width="500">Virtual Kanomchan</object>
+<object data="/components/UnityBuild/index.html" height="300" width="500">Virtual Kanomchan</object>
 </body>
 
 <style lang="scss" scoped>
