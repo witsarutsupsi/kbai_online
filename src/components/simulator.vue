@@ -5,9 +5,9 @@
 <style lang="scss" scoped>
 .sim-panel {
   background-color: #fff2d6;
-  padding: 25px;
-  margin: auto;
-  width: 640px;
-  height: 360px;
+  padding: 20px;
+  margin: 35px;
+  width: 1280px;
+  height: 720px;
 }
 </style>
