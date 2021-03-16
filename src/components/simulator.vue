@@ -1,21 +1,15 @@
 <template>
-  <div class="sim-panel d-flex justify-content-center">
-    <ul>
-
-       <li class="project">   
-         <a :href="publicPath + 'src/assets/UnityBuild/index.html'">Virtual Kanomchan</a> 
-       </li>
-
-    </ul>
+  <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan
   </div>
 </template>
 
 <script>
-
+import vk from "@/assets/UnityBuild/index.html";
 export default {
   data () {
     return {
-      publicPath: process.env.BASE_URL
+      vk,
+      foo:null
     }
   }
 }
@@ -25,8 +19,7 @@ export default {
 .sim-panel {
   background-color: #fff2d6;
   padding: 20px;
-  margin-top: 35px;
-  margin-left: auto;
+  margin: auto;
   width: 1280px;
   height: 720px;
 }
