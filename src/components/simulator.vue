@@ -1,5 +1,13 @@
 <template>
-  <div style="width: 120px; height: 120px; background-color: rgba(255,0,0,0.1);">
-
-  </div>
+  <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan</div>
 </template>
+
+<style lang="scss" scoped>
+.sim-panel {
+  background-color: #fff2d6;
+  padding: 25px;
+  margin: auto;
+  width: 1280px;
+  height: 720px;
+}
+</style>

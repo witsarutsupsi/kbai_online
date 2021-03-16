@@ -7,7 +7,6 @@
     ></loading>
     
     <div class="container-fluid vh-100 d-flex main-bg">
-      <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan</div>
       <div class="left-panel d-flex flex-column">
         <div class="l-title font-weight-bold">KidBright AI</div>
         <div class="d-inline-flex flex-wrap menu-starter">
@@ -1355,13 +1354,6 @@ ul {
 .content-panel {
   overflow-y: auto;
   width: calc(100% - 320px);
-}
-.sim-panel {
-  background-color: #fff2d6;
-  padding: 25px;
-  margin: auto;
-  width: 640px;
-  height: 360px;
 }
 .left-panel {
   padding: 8px;
