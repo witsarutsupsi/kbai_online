@@ -7,7 +7,7 @@
   background-color: #fff2d6;
   padding: 25px;
   margin: auto;
-  width: 1280px;
-  height: 720px;
+  width: 640px;
+  height: 360px;
 }
 </style>

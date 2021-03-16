@@ -5,6 +5,7 @@
     <!-- <LoadingScreen></LoadingScreen>
     <main v-if="!isLoading">
         <Main msg="Welcome to Your Vue.js App" />
+        <Simulator msg="Welcome to Your Vue.js App" />
     </main> -->
 
     <router-view />
@@ -23,7 +24,7 @@ var axiosInstance = axios.create({
 export default {
     name: 'app',
     components: {
-        Main,
+        Main, Simulator,
         LoadingScreen
     },
     data() {
