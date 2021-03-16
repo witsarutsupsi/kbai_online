@@ -1,6 +1,6 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan
-    <object data="../assets/UnityBuild/index.html"></object>
+    <object data="/assets/UnityBuild/index.html"></object>
   </div>
 </template>
 
