@@ -13,5 +13,5 @@
 </style>
 
 <body>
-<object data="/components/UnityBuild/index.html" height="300" width="500"></object>
+<object data="https://www.kid-bright.org/" height="300" width="500"></object>
 </body>

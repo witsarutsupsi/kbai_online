@@ -15,7 +15,7 @@
 
 <script>
 import Main from './components/main.vue'
-import Simulator from './components/UnityBuild/index.html'
+import Simulator from './components/simulator.vue'
 import LoadingScreen from "./components/LoadingScreen";
 /*import axios from 'axios'
 var axiosInstance = axios.create({
