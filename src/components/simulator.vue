@@ -1,18 +1,9 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan
-  <div v-html="htmlvk"></div>
+  <object data="../assets/UI/png/Group 13.png" height="300" width="500"></object>
   </div>
 </template>
 
-<script>
-export default{
-  data(){
-    return{
-      htmlvk: "<object data='/components/UnityBuild/index.html' height='300' width='500'></object>",
-    };
-  }
-};
-</script>
 
 <style lang="scss" scoped>
 .sim-panel {
