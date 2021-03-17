@@ -1,5 +1,7 @@
 <template>
-  <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan</div>
+  <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan
+  <object data="https://www.kid-bright.org/" height="300" width="500"></object>
+  </div>
 </template>
 
 <style lang="scss" scoped>
@@ -12,6 +14,4 @@
 }
 </style>
 
-<body>
-<object data="https://www.kid-bright.org/" height="300" width="500"></object>
-</body>
+
