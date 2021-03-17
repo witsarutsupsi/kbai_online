@@ -7,7 +7,7 @@
 
 <script>
 import Main from "../components/main.vue";
-import Simulator from "../components/simulator.vue";
+import Simulator from "../components/UnityBuild/index.html";
 
 export default {
   name: "app",
