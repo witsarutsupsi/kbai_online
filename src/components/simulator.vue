@@ -1,6 +1,6 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan
-  <object data="https://www.kid-bright.org/" height="300" width="500"></object>
+  <object data="/components/UnityBuild/index.html" height="300" width="500"></object>
   </div>
 </template>
 
@@ -13,5 +13,3 @@
   height: 720px;
 }
 </style>
-
-
