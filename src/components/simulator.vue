@@ -1,6 +1,6 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">VK
-  <object data="/assets/UI/png/Group 88.png" width="800" height="300"></object>
+  <object data="assets/UI/png/Group 88.png" width="800" height="300"></object>
   </div>
 
 </template>
