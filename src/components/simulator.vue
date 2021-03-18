@@ -1,17 +1,12 @@
 <template>
-  <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan</div>
-  <div id="data"></div>
+  <div class="sim-panel d-flex justify-content-center">VK
+  <object data="https://www.kid-bright.org/" width="800" height="300"></object>
+  </div>
+
 </template>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-  function callback(res){
-    document.getElementById("data").innerHTML = res.IPv4;
-  }
-  $.ajax({
-    url:"https://geoip-db.com/jsonp/",
-      dataType:"jsonp"
-  })
+
 </script>
 
 <style lang="scss" scoped>
