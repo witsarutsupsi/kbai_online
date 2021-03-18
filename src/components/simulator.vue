@@ -1,9 +1,18 @@
 <template>
-  <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan
-  <object data="/UnityBuild/index.html" height="300" width="500"></object>
-  </div>
+  <div class="sim-panel d-flex justify-content-center">Virtual Kanomchan</div>
+  <div id="data"></div>
 </template>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  function callback(res){
+    document.getElementById("data").innerHTML = res.IPv4;
+  }
+  $.ajax({
+    url:"https://geoip-db.com/jsonp/",
+      dataType:"jsonp"
+  })
+</script>
 
 <style lang="scss" scoped>
 .sim-panel {
