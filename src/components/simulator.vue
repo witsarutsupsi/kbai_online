@@ -1,21 +1,11 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">VK
-    <nav id="kb32">
-      <SomeImage class="image" />
-    </nav>
+  <object data="https://www.kid-bright.org/" width="800" height="300"></object>
   </div>
 
 </template>
 
 <script>
-import SomeImage from './assets/kidbright32_v12.svg';
-
-export default {
-  name: 'kb32',
-  components: {
-    SomeImage,
-  },
-};
 
 </script>
 
