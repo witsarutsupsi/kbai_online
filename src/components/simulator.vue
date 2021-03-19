@@ -9,7 +9,7 @@
 
 <style lang="scss" scoped>
 .sim-panel {
-  background-image: url("../assets/UI/png/totoro.png");
+  background-image: url("@/components/UnityBuild/index.html");
   background-color: #fff2d6;
   padding: 20px;
   margin: auto;
