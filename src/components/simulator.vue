@@ -1,6 +1,6 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">VK
-  <object data="@/components/UnityBuild/index.html" height="300" width="500"></object>
+  <object data="@/components/index.html" height="300" width="500"></object>
   </div>
 </template>
 
