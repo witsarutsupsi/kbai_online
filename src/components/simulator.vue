@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import SomeIcon from "../assets/kidbright32_v12.svg";
+import SomeIcon from "../assets/UI/png/totoro.png";
 
 export default {
   name: 'menu',
