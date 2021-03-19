@@ -1,12 +1,20 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">VK
-  <object data="https://www.kid-bright.org/" width="800" height="300"></object>
+  
+  <div id ="menu"><SomeIcon class="icon" /></div>
   </div>
 
 </template>
 
 <script>
+import SomeIcon from "../assets/kidbright32_v12.svg";
 
+export default {
+  name: 'menu',
+  components: {
+    SomeIcon,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
