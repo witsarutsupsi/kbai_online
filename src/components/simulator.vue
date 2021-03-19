@@ -1,12 +1,19 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">VK
-  <object data="../assets/kidbright32_v12.svg" width="800" height="300"></object>
+  <img :src="mySVG" />
   </div>
 
 </template>
 
 <script>
-
+export default {
+  name: 'App',
+  data(){
+    return {
+      mySVG: require('./assets/kidbright32_v12.svg')
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
