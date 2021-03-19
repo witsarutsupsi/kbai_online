@@ -1,19 +1,22 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">VK
-  <img :src="mySVG" />
+    <nav id="kb32">
+      <SomeImage class="image" />
+    </nav>
   </div>
 
 </template>
 
 <script>
+import SomeImage from './assets/kidbright32_v12.svg';
+
 export default {
-  name: 'App',
-  data(){
-    return {
-      mySVG: require('./assets/kidbright32_v12.svg')
-    }
-  }
-}
+  name: 'kb32',
+  components: {
+    SomeImage,
+  },
+};
+
 </script>
 
 <style lang="scss" scoped>
