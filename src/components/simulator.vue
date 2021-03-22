@@ -1,6 +1,6 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">VK
-  <unity src="components/UnityBuild/Build/VKBuild.json" width="1000" height="600" unityLoader="components/UnityBuild/Build/UnityLoader.js"></unity>
+  <unity src="UnityBuild/Build/VKBuild.json" width="1000" height="600" unityLoader="UnityBuild/Build/UnityLoader.js"></unity>
   </div>
 </template>
 
@@ -19,5 +19,19 @@ import Unity from 'vue-unity-webgl'
   margin: auto;
   width: 1280px;
   height: 720px;
+}
+.unity {
+    .unity-container {
+        canvas {
+
+        }
+    }
+    .unity-loader {
+        .bar {
+            .fill {
+                /* the width will be set by the component */
+            }
+        }
+    }
 }
 </style>

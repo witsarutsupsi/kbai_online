@@ -45,6 +45,7 @@
     "vue-rx": "^6.2.0",
     "vue-slick-carousel": "^1.0.6",
     "vue-splitpane": "^1.0.4",
+    "vue-unity-webgl": "^1.2.0",
     "vue2-crop": "^1.0.2",
     "vuebar": "0.0.20",
     "vuejs-clipper": "^1.1.0",
