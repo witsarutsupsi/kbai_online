@@ -1,6 +1,6 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
-    ${require('https://www.kid-bright.org/')}
+    ${require('./component/index.html')}
   </div>
 </template>
 
