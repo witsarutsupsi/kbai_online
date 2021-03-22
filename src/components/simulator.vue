@@ -1,17 +1,10 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
-    {{scene}}
+    ${require('https://www.kid-bright.org/')}
   </div>
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-      scene: require('./UnityBuild/index.html')
-    }
-  }
-}
 </script>
 
 <style lang="scss" scoped>
