@@ -1,17 +1,17 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
-    {{scene}}
+    <object type="text/html" data="index.html" ></object>
   </div>
 </template>
 
 <script>
-export default {
+/*export default {
   data () {
     return {
       scene: '<object type="text/html" data="index.html" ></object>'
     }
   }
-}
+}*/
 </script>
 
 <style lang="scss" scoped>
