@@ -1,6 +1,6 @@
 <template>
-  <div class="sim-panel d-flex justify-content-center">VK
-  <object data="@/components/UnityBuild/index.html" height="300" width="500"></object>
+  <div class="sim-panel d-flex justify-content-center">
+    ${require('./UnityBuild/index.html')}
   </div>
 </template>
 
