@@ -1,10 +1,17 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
-    ${require('./component/index.html')}
+    {{scene}}
   </div>
 </template>
 
 <script>
+export default {
+  data () {
+    return {
+      scene: 'Hello world!'
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
