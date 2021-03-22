@@ -1,17 +1,11 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
-    <object type="text/html" data="index.html" ></object>
+    <div id ="content"></div>
   </div>
 </template>
 
 <script>
-/*export default {
-  data () {
-    return {
-      scene: '<object type="text/html" data="index.html" ></object>'
-    }
-  }
-}*/
+$("#content").load("index.html");
 </script>
 
 <style lang="scss" scoped>
