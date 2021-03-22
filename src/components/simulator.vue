@@ -1,17 +1,11 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
-    {{scene}}
+    {{<object data="./UnityBuild/index.html/" height="300" width="500"></object>}}
   </div>
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-      scene: require('./index.html')
-    }
-  }
-}
+
 </script>
 
 <style lang="scss" scoped>
