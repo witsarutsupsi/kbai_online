@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      scene: 'Hello world!'
+      scene: require('./index.html')
     }
   }
 }
