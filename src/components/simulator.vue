@@ -5,7 +5,14 @@
 </template>
 
 <script>
-$("#content").load("index.html");
+import htmlImport from '/index.html'
+
+export default {
+  name: "sim-panel",
+  components: {
+    htmlImport
+  },
+};
 </script>
 
 <style lang="scss" scoped>
