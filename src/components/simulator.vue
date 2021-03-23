@@ -10,7 +10,7 @@
 export default {
     data () {
       return {
-        html: '<object data="https://www.kid-bright.org/" height="300" width="500"></object>',
+        html: '<object data="UnityBuild/index.html" height="600" width="1000"></object>',
       };
     },
   };
