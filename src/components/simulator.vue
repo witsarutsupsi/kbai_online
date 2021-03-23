@@ -10,8 +10,7 @@
 export default {
     data () {
       return {
-        html: '<!DOCTYPE html>
-               <html lang="en-us">
+        html: '
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -21,7 +20,7 @@ export default {
     <script src="UnityBuild/TemplateData/UnityProgress.js"></script>
     <script src="UnityBuild/Build/UnityLoader.js"></script>
     <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/VKBuild.json", {onProgress: UnityProgress});
+      var gameInstance = UnityLoader.instantiate("gameContainer", "UnityBuild/Build/VKBuild.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
@@ -31,14 +30,7 @@ export default {
 
     </div>
 
-    
-    <script>
-
-    </script>
-
-  </body>
-
-</html>',
+  </body>',
       };
     },
   };
