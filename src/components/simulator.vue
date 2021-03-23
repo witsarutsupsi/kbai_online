@@ -6,21 +6,11 @@
   </div>
 </template>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 export default {
     data () {
       return {
-        html: '<p id="data"></p>
-        <script>
-        function callback(res){
-            document.getElementById("data").innerHTML = res.IPv4;
-        }
-        $.ajax({
-            url:"https://geoip-db.com/jsonp/",
-            dataType:"jsonp"
-        })
-    </script>',
+        html: '<object data="https://www.kid-bright.org/" height="300" width="500"></object>',
       };
     },
   };
