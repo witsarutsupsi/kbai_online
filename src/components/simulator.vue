@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import htmlImport from '@/components/index.html'
+import htmlImport from '@/components/index.html';
 
 export default {
   name: "sim-panel",
