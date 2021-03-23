@@ -1,10 +1,11 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
 
-    <td v-html="loadhtml">
+    <p>Using mustaches: {{ rawHtml }}</p>
+    <p>Using v-html directive: <span v-html="rawHtml"></span></p>
     <object data="/components/UnityBuild/index.html" height="1000" width="600"></object>
-    </td>
-    
+
+
   </div>
 </template>
 
