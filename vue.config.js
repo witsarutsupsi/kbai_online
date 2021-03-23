@@ -17,5 +17,4 @@ module.exports = {
       },
       productionSourceMap: true, // NOTE: this is default
 
-      chainWebpack: config => {config.module.rule('html').test(/\.html$/).use('html-loader').loader('html-loader')}
 }

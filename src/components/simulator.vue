@@ -4,14 +4,7 @@
 </template>
 
 <script>
-import htmlImport from '@/components/index.html';
 
-export default {
-  name: "sim-panel",
-  components: {
-    htmlImport
-  },
-};
 </script>
 
 <style lang="scss" scoped>
