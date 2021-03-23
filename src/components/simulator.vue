@@ -1,5 +1,6 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
+  <object data="https://www.kid-bright.org/" height="1000" width="600"></object>
   </div>
 </template>
 
