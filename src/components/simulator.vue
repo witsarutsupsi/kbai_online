@@ -1,14 +1,15 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
-
-    <div>
-        <object data="index.html"></object>
-    </div>
+    <unity src="UnityBuild/Build/VKBuild.json" width="1000" height="600" unityLoader="UnityBuild/Build/UnityLoader.js"></unity>
   </div>
 </template>
 
 <script>
-
+import Unity from 'vue-unity-webgl'
+  
+  new Vue({
+    components: { Unity }
+  })
 
 </script>
 
@@ -20,5 +21,18 @@
   width: 1280px;
   height: 720px;
 }
-
+.unity {
+    .unity-container {
+        canvas {
+            
+        }
+    }
+    .unity-loader {
+        .bar {
+            .fill {
+                /* the width will be set by the component */
+            }
+        }
+    }
+}
 </style>
