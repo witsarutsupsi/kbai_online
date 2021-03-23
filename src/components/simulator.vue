@@ -1,11 +1,10 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
-    <div id ="content"></div>
   </div>
 </template>
 
 <script>
-import htmlImport from '/index.html'
+import htmlImport from '@/components/index.html'
 
 export default {
   name: "sim-panel",
