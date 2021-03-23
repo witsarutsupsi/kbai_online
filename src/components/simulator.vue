@@ -6,34 +6,23 @@
   </div>
 </template>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 export default {
     data () {
       return {
-        html: '
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Virtual Kanomchan</title>
-    <link rel="shortcut icon" href="UnityBuild/TemplateData/favicon.ico">
-    <link rel="stylesheet" href="UnityBuild/TemplateData/style.css">
-    <script src="UnityBuild/TemplateData/UnityProgress.js"></script>
-    <script src="UnityBuild/Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "UnityBuild/Build/VKBuild.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 990px; height: 557px"></div>
-      <div class="footer"></div>
-
-    </div>
-
-  </body>',
+        html: '<p id="data"></p>',
       };
     },
   };
+
+function callback(res){
+            document.getElementById("data").innerHTML = res.IPv4;
+        }
+        $.ajax({
+            url:"https://geoip-db.com/jsonp/",
+            dataType:"jsonp"
+        })
 </script>
 
 <style lang="scss" scoped>
