@@ -1,15 +1,19 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
 
-    <p>Using mustaches: {{ rawHtml }}</p>
-    <p>Using v-html directive: <span v-html="rawHtml"></span></p>
-    <object data="/components/UnityBuild/index.html" height="1000" width="600"></object>
-
+    <div v-html="html"></div>
 
   </div>
 </template>
 
 <script>
+export default {
+    data () {
+      return {
+        html: '<p>Hello World</p>',
+      };
+    },
+  };
 </script>
 
 <style lang="scss" scoped>
