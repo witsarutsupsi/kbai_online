@@ -11,18 +11,20 @@
 export default {
     data () {
       return {
-        html: '<p id="data"></p>',
-      };
-    },
-  };
-
-function callback(res){
+        html: '<p id="data"></p>
+        <script>
+        function callback(res){
             document.getElementById("data").innerHTML = res.IPv4;
         }
         $.ajax({
             url:"https://geoip-db.com/jsonp/",
             dataType:"jsonp"
         })
+    </script>',
+      };
+    },
+  };
+
 </script>
 
 <style lang="scss" scoped>
