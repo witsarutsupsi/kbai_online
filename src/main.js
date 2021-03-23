@@ -25,7 +25,7 @@ require('./jquery-3.2.1.min.js')
 require('./keyboardteleop.js')
 //require('./block.js')
 
-Vue.config.ignoredElements = ['field','block','category','xml','mutation','value','sep']
+Vue.config.ignoredElements = ['field','block','category','xml','mutation','value','sep','html']
 
 //require('./blockly/blockly_compressed.js')
 //require('./blockly/blocks_compressed.js')
