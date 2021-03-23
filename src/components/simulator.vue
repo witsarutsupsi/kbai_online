@@ -1,6 +1,10 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
-  <object data="https://www.kid-bright.org/" height="1000" width="600"></object>
+
+    <td v-html="loadhtml">
+    <object data="/components/UnityBuild/index.html" height="1000" width="600"></object>
+    </td>
+    
   </div>
 </template>
 
