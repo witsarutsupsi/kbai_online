@@ -1,19 +1,14 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
 
-    <div v-html="html"></div>
-
+    <div>
+        <object data="index.html"></object>
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-    data () {
-      return {
-        html: '<object data="UnityBuild/index.html" height="600" width="1000"></object>',
-      };
-    },
-  };
+
 
 </script>
 
