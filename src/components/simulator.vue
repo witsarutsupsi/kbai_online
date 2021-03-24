@@ -1,19 +1,25 @@
 <template>
   <div class="sim-panel d-flex justify-content-center">
-    <html/>
+    <div v-html="SystemHTML">
+    </div>
   </div>
 </template>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-import html from "@/components/index.html";
-  
-export default {
-  name: "sim-panel",
-  components: {
-    html,
-  },
-};
+document.getElementById("data").innerHTML = "1234"
 
+export default {
+  data() {
+    return {
+      SystemHTML: `
+        <p id="data">
+
+        </p>
+      `
+    }
+  }
+}
 </script>
 
 <style lang="scss" scoped>
