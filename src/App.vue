@@ -15,7 +15,7 @@
 
 <script>
 import Main from './components/main.vue'
-import VK from './components/UnityBuild/vk.vue";
+import VK from '../components/UnityBuild/vk.vue";
 import LoadingScreen from "./components/LoadingScreen";
 /*import axios from 'axios'
 var axiosInstance = axios.create({
