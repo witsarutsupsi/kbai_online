@@ -14,25 +14,11 @@ import Unity from 'vue-unity-webgl'
 </script>
 
 <style>
-.vk-panel {
+.sim-panel {
   background-color: #fff2d6;
   padding: 20px;
   margin: auto;
   width: 1280px;
   height: 720px;
-}
-.unity {
-    .unity-container {
-        canvas {
-            
-        }
-    }
-    .unity-loader {
-        .bar {
-            .fill {
-                /* the width will be set by the component */
-            }
-        }
-    }
 }
 </style>
