@@ -1,19 +1,18 @@
 <template>
   <div class="sim-panel">
-    <p id="data"></p>
+    <htmlImport msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <script>
 
-function callback(res){
-            document.getElementById("data").value = res.IPv4;
-        }
-        $.ajax({
-            url:"https://geoip-db.com/jsonp/",
-            dataType:"jsonp"
-        })
+import htmlImport from "@/components/index.html";
+ export default {
+    components: {
+      htmlImport
+    }
+  }
 </script>
 
 <style>
