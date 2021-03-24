@@ -12,7 +12,10 @@ import VK from "../components/UnityBuild/vk.vue";
 export default {
   name: "app",
   components: {
-    Main, VK
+    Main, 
+    	UnityBuild: {
+     	VK,
+  	},
   },
 };
 </script>
