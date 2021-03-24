@@ -17,13 +17,4 @@ module.exports = {
   },
   productionSourceMap: true, // NOTE: this is default
 
-  test: /\.(html)$/,
-  use: {
-    loader: 'vue2-html-loader',
-    options: {
-      removeComments: true,
-      removeWhiteSpace: true,
-      removeNewline: true,
-    }
-  }
 }

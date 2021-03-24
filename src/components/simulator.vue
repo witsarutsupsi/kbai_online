@@ -1,18 +1,16 @@
 <template>
   <div class="sim-panel">
-    <htmlImport msg="Welcome to Your Vue.js App"/>
+    <unity src="Build/VKBuild.json" width="1000" height="600" unityLoader="Build/UnityLoader.js"></unity>  
   </div>
 </template>
 
 
 <script>
-
-import htmlImport from "@/components/index.html";
- export default {
-    components: {
-      htmlImport
-    }
-  }
+import Unity from 'vue-unity-webgl'
+  
+  new Vue({
+    components: { Unity }
+  })
 </script>
 
 <style>
@@ -22,5 +20,19 @@ import htmlImport from "@/components/index.html";
   margin: auto;
   width: 1280px;
   height: 720px;
+}
+.unity {
+    .unity-container {
+        canvas {
+            
+        }
+    }
+    .unity-loader {
+        .bar {
+            .fill {
+                /* the width will be set by the component */
+            }
+        }
+    }
 }
 </style>
