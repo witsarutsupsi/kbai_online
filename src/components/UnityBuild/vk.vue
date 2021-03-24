@@ -1,5 +1,5 @@
 <template>
-  <div class="vk-panel">
+  <div class="vk-panel">virtual kanomchan
   </div>
 </template>
 

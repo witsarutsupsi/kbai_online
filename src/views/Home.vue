@@ -1,21 +1,18 @@
 <template>
   <div id="app">
     <Main msg="Welcome to Your Vue.js App" />
-    <VK msg="Welcome to Your Vue.js App" />
+    <Simulator msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
 import Main from "../components/main.vue";
-import VK from "../components/UnityBuild/vk.vue";
+import Simulator from "../components/simulator.vue";
 
 export default {
   name: "app",
   components: {
-    Main, 
-    	UnityBuild: {
-     	VK,
-  	},
+    Main, Simulator
   },
 };
 </script>

@@ -1,19 +1,19 @@
 <template>
-  <div class="sim-panel">
+  <div id="sim-panel">
+  <VK msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 
 <script>
+import VK from "./UnityBuild/vk.vue";
 
+export default {
+  name: "sim-panel",
+  UnityBuild: {
+    VK,
+  },
+};
 </script>
 
-<style>
-.sim-panel {
-  background-color: #fff2d6;
-  padding: 20px;
-  margin: auto;
-  width: 1280px;
-  height: 720px;
-}
-</style>
+
