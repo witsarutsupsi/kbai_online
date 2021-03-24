@@ -1,6 +1,6 @@
 <template>
   <div class="sim-panel">
-    <object data="./UnityBuild/index.html" width="1000" height="600" ></object>
+    <object data="/UnityBuild/index.html" width="1000" height="600" ></object>
   </div>
 </template>
 
