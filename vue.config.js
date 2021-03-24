@@ -16,5 +16,5 @@ module.exports = {
     }
   },
   productionSourceMap: true, // NOTE: this is default
-
+  
 }

@@ -8,7 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "8": "^0.0.1",
     "@syncfusion/ej2-vue-layouts": "^17.1.51",
+    "8.9.4": "^0.0.1-security",
     "axios": "^0.19.0",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "base64-image-upload": "^1.1.4",
