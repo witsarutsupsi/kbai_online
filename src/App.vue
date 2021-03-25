@@ -5,7 +5,6 @@
     <!-- <LoadingScreen></LoadingScreen>
     <main v-if="!isLoading">
         <Main msg="Welcome to Your Vue.js App" />
-        <Simulator msg="Welcome to Your Vue.js App" />
         <unity src="/assets/Build/VKBuild.json" width="1000" height="600" unityLoader="/assets/Build/UnityLoader.js" ref="myInstance"></unity>
     </main> -->
 
@@ -17,7 +16,6 @@
 <script>
 import Unity from 'vue-unity-webgl'
 import Main from './components/main.vue'
-import Simulator from './components/simulator.vue'
 import LoadingScreen from "./components/LoadingScreen";
 /*import axios from 'axios'
 var axiosInstance = axios.create({
@@ -26,7 +24,7 @@ var axiosInstance = axios.create({
 export default {
     name: 'app',
     components: {
-        Main, Simulator,
+        Main,
         LoadingScreen, Unity
     },
     data() {
