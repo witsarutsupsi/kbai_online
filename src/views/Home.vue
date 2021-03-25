@@ -3,7 +3,7 @@
     <Main msg="Welcome to Your Vue.js App" />
     <Simulator msg="Welcome to Your Vue.js App" />
     <unity
-        src="/Build/WebGL-Test.json"
+        src="/Build/VKBuild.json"
         width="1000"
         height="600"
         unityLoader="/Build/UnityLoader.js" ref="myInstance"
@@ -20,7 +20,7 @@ import Simulator from "../components/simulator.vue";
 export default {
   name: "app",
   components: {
-    Unity, Main, Simulator
+    Main, Simulator, Unity
   },
 };
 </script>
