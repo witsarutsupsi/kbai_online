@@ -1,29 +1,23 @@
 <template>
   <div id="app">
     <Main msg="Welcome to Your Vue.js App" />
-    <unity src="/assets/Build/VKBuild.json" width="1000" height="600" unityLoader="/assets/Build/UnityLoader.js" ref="myInstance"></unity>
+    <Simulator msg="Welcome to Your Vue.js App" />
+    <unity src="/Build/VKBuild.json" width="1000" height="600" unityLoader="/Build/UnityLoader.js" ref="myInstance"></unity>
+    <GamePage msg="game panel"/>
   </div>
-  <div class="sim-panel">
-  </div>
+
 </template>
 
 <script>
 import Main from "../components/main.vue";
+import Simulator from "../components/simulator.vue";
 import Unity from 'vue-unity-webgl'
+
 
 export default {
   name: "app",
   components: {
-    Main, Unity
+    Main, Simulator, Unity
   },
 };
 </script>
-
-<style>
-.sim-panel {
-  background-color: #fff7d6;
-  margin: auto;
-  width: 1280px;
-  height: 720px;
-}
-</style>
