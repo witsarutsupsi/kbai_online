@@ -3,7 +3,6 @@
     <Main msg="Welcome to Your Vue.js App" />
     <Simulator msg="Welcome to Your Vue.js App" />
     <unity src="/Build/VKBuild.json" width="1000" height="600" unityLoader="/Build/UnityLoader.js" ref="myInstance"></unity>
-    <GamePage msg="game panel"/>
   </div>
 
 </template>
