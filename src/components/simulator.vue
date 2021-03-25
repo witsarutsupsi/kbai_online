@@ -1,5 +1,5 @@
 <template>
-    <div id="sim-panel">
+    <div class="sim-panel">
     </div>
 </template>
 
