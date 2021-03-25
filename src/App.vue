@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import unity from 'vue-unity-webgl'
+import Unity from 'vue-unity-webgl'
 import Main from './components/main.vue'
 import Simulator from './components/simulator.vue'
 import LoadingScreen from "./components/LoadingScreen";
@@ -27,7 +27,7 @@ export default {
     name: 'app',
     components: {
         Main, Simulator,
-        LoadingScreen, unity
+        LoadingScreen, Unity
     },
     data() {
         return {
