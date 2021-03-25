@@ -3,7 +3,7 @@
     <Main msg="Welcome to Your Vue.js App" />
     <Simulator msg="Welcome to Your Vue.js App" />
     <unity src="/assets/Build/VKBuild.json" width="1000" height="600" unityLoader="/assets/Build/UnityLoader.js" ref="myInstance"></unity>
-    <GamePage class="game-panel"></GamePage>
+    <GamePage msg="game panel"/>
   </div>
 </template>
 
@@ -20,12 +20,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.game-panel {
-  background-color: #fff7d6;
-  margin: auto;
-  width: 1280px;
-  height: 720px;
-}
-</style>
