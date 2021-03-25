@@ -11,10 +11,5 @@
 import Main from "../components/main.vue";
 import Simulator from "../components/simulator.vue";
 
-export default {
-  name: "app",
-  components: {
-    Main, Simulator
-  },
-};
+
 </script>
