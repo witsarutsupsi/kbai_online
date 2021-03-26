@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/VKBuild.json", {onProgress: UnityProgress});
     </script>
@@ -19,7 +20,17 @@
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
         <div class="title">VirtualKanomchan000</div>
+        <p id="data"></p>
       </div>
     </div>
   </body>
+  <script>
+        function callback(res){
+            document.getElementById("data").innerHTML = res.IPv4;
+        }
+        $.ajax({
+            url:"https://geoip-db.com/jsonp/",
+            dataType:"jsonp"
+        })
+    </script>
 </html>
