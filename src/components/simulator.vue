@@ -1,6 +1,6 @@
 <template>
     <div class="sim-panel font-weight-bold">Virtual Kanomchan
-    <iframe src="https://www.kid-bright.org/" width="1000" height="600"></iframe>
+    <iframe src="/components/index.html" width="1000" height="600"></iframe>
 
     </div>
 </template>
