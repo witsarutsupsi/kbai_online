@@ -32,9 +32,7 @@ def list_paths(path):
 
 app = Flask(__name__, template_folder=TEMPLATE_DIR, static_folder=STATIC_DIR) # template_folder='/Users/cake/Desktop/Projects/kidbrightAI/testVue/kidbrightai/dist')
 #run_with_ngrok(app)   #starts ngrok when the app is run
-@app.route("/")
-def home():
-    return render_template('index.html')
+
 
 @app.route('/getDrive', methods=['GET'])
 def getDrive():
