@@ -1,6 +1,6 @@
 <template>
     <div class="sim-panel font-weight-bold">Virtual Kanomchan
-		<unity src="static/Build/VKBuild.json" width="1000" height="600" unityLoader="static/Build/UnityLoader.js" ref="myInstance"></unity>
+		<unity src="assets/Build/VKBuild.json" width="1000" height="600" unityLoader="assets/Build/UnityLoader.js" ref="myInstance"></unity>
     </div>
 </template>
 
@@ -8,9 +8,12 @@
 <script>
 import Unity from 'vue-unity-webgl'
 
-new Vue({
-    components: { Unity }
-  })
+export default {
+  name: "app",
+  components: {
+    Unity
+  },
+};
 </script>
 
 <style>
