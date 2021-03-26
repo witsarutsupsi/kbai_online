@@ -5,7 +5,10 @@
 <script>
 import Unity from 'vue-unity-webgl'
 
-new Vue({
-    components: { Unity }
-  })
+export default {
+  name: "app",
+  components: {
+    Unity
+  },
+};
 </script>
