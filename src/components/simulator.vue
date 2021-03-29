@@ -1,19 +1,12 @@
 <template>
     <div class="sim-panel font-weight-bold">Virtual Kanomchan
-		<unity src="/Build/VKBuild.json" width="1000" height="600" unityLoader="/Build/UnityLoader.js" ref="myInstance"></unity>
+		
     </div>
 </template>
 
 
 <script>
-import Unity from 'vue-unity-webgl'
 
-export default {
-  name: "home",
-  components: {
-    Unity
-  },
-};
 </script>
 
 <style>
